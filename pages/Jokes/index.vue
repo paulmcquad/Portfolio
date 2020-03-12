@@ -1,11 +1,23 @@
 <template>
-  <div>Jokes</div>
+  <div>
+    <Joke
+      v-for="joke in jokes"
+      :key="joke.id"
+      :id="joke.id"
+      :joke="joke.joke"
+    />
+  </div>
 </template>
 
 <script>
 import axios from "axios";
+import Joke from "../../components/Joke";
 
 export default {
+  components: {
+    Joke
+  },
+
   data() {
     return {
       jokes: []
