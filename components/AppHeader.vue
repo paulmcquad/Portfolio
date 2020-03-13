@@ -48,7 +48,7 @@ export default {
   border-bottom: 1px dotted #ccc;
 }
 .header .title {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #ce8e29;
 
 }
