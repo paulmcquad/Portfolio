@@ -5,18 +5,15 @@
         <nuxt-link to="/">Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/jokes">Jokes</nuxt-link>
-      </li>
-      <li>
         <nuxt-link to="/about">About</nuxt-link>
       </li>
       <li>
         <div>
           <div class="dropdown">
-            <nuxt-link to="/about">Drop</nuxt-link>
+            <nuxt-link to="/about">Web Apps</nuxt-link>
             <i class="fa fa-caret-down"></i>
             <div class="dropdown-content">
-              <a href="/bob">Link 1</a>
+              <a href="/jokes">Dad Jokes</a>
               <a href="/alice">Link 2</a>
               <a href="/sam">Link 3</a>
             </div>
